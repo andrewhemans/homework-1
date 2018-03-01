@@ -235,6 +235,21 @@ textarea {
   border: none;
   font-size: 14px;
   margin: 20px 0 8px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.button:hover {
+  background-color: #6ebbb7;
+}
+
+.button:active {
+  background-color: #429994;
+
+}
+
+.button:focus {
+
 }
 
 /* Responsive */
