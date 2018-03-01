@@ -14,6 +14,10 @@ h1 {
   font-weight: bold;
 }
 
+h2 {
+  font-size: 20px;
+}
+
 p {
   line-height: 2;
   font-weight: 400;
@@ -30,7 +34,7 @@ a:hover {
 
 hr {
   border: 1px solid #ccc;
-  margin-bottom: 20px;
+  margin: 18px 0 30px;
 }
 
 form {
@@ -38,12 +42,14 @@ form {
 }
 
 .textbox {
-  width: 100%;
+  width: 570px;
   height: 24px;
+  border: 1px solid #ddd;
 }
 
 textarea {
-  width: 100%;
+  width: 570px;
+  border: 1px solid #ddd;
 }
 
 .button {
@@ -52,6 +58,7 @@ textarea {
   padding: 10px 20px;
   border: none;
   font-size: 14px;
+  margin: 20px 0 8px;
 }
 
 
@@ -105,7 +112,7 @@ ul.navigation {
 article {
   background-color: #fff;
   width: 650px;
-  padding: 10px;
+  padding: 20px 30px;
   border: 1px solid #ddd;
   color: #777;
 }
@@ -124,7 +131,7 @@ article > h1, aside > h1 {
 aside {
   width: 270px;
   background: #fff;
-  padding: 10px;
+  padding: 20px 30px;
   border: 1px solid #ddd;
   margin-left: 30px;
 }
@@ -132,7 +139,7 @@ aside {
 .social-links {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .social-links > a > img {
@@ -153,6 +160,63 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* Portfolio */
+
+.portfolio-items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.item {
+  background-color: #ccc;
+  width: 47%;
+  margin-bottom: 30px;
+  height: 200px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.item-label {
+  background-color: #4aaaa5;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  margin-bottom: 10px;
+}
+
+#hangman {
+  background-image: url('../images/hang.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#rpg {
+  background-image: url('../images/rpg.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#trivia {
+  background-image: url('../images/trivia.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#rutgers {
+  background-image: url('../images/info.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#rock {
+  background-image: url('../images/rock.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 @media only screen and (max-width: 960px) {
